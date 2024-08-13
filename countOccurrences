@@ -1,0 +1,14 @@
+function countOccurrences(arr, element) 
+{
+  let count = 0;
+  
+  for (const item of arr) 
+  {
+    if (item === element) 
+  {
+      count++;
+    }
+  }
+  
+  return count;
+}
