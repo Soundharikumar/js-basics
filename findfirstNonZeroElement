@@ -1,0 +1,10 @@
+const array = [0,0,0,5,3,7]
+const result = findfirstNonZeroElement(array);
+if (result !== null) 
+{
+console.log('The first non-zero element is:', result);
+}
+else
+{
+console.log('No non-zero element found.');
+}
