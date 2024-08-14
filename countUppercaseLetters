@@ -1,0 +1,3 @@
+const inputString = "Hello World! This is a Test String.";
+const uppercaseCount = countUppercaseLetters(inuputString);
+console.log('Number of uppercase letters:', uppercaseCount);
