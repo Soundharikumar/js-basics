@@ -1,0 +1,7 @@
+const input = 'HELLO';
+const result = [...input].reduce((acc, chr) => { 
+    acc[chr] = (acc[chr] || 0) + 1;
+    return acc;
+}, {});
+
+console.log('Result:', result)
