@@ -1,0 +1,9 @@
+function countPerfectCubes(arr) {
+    let count = 0;
+    for (const element of arr) {
+        if (isPerfectCube(element)) {
+            count++;
+        }
+    }
+    return count;
+}
