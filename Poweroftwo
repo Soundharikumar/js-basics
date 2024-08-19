@@ -1,0 +1,11 @@
+function isPowerOfTwo(x)
+{
+    if (x == 0)
+        return false;
+   
+    If x & (x-1) = 0 then x is a power of 2
+    if ((x & (x - 1)) == 0)
+        return true;
+    else
+        return false;
+}
