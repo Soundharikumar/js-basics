@@ -7,5 +7,5 @@ function findDivisibleBy3And5(arr)
             return arr[i];
         }
     }
-    return null; // Return null if no such element is found
+    return null; 
 }
