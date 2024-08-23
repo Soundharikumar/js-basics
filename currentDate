@@ -1,0 +1,5 @@
+const currentDate = new Date();
+function pad(number) 
+{
+    return number < 10 ? '0' + number : number;
+}
